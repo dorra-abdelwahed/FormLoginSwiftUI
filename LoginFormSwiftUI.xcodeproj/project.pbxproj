@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		8BD2A626282D0A510018E238 /* LoginFormSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2A625282D0A510018E238 /* LoginFormSwiftUIApp.swift */; };
-		8BD2A628282D0A510018E238 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2A627282D0A510018E238 /* ContentView.swift */; };
+		8BD2A628282D0A510018E238 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2A627282D0A510018E238 /* LoginScreenView.swift */; };
 		8BD2A62A282D0A520018E238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD2A629282D0A520018E238 /* Assets.xcassets */; };
 		8BD2A62D282D0A520018E238 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD2A62C282D0A520018E238 /* Preview Assets.xcassets */; };
+		8BD2A635282D0DC70018E238 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2A634282D0DC70018E238 /* CustomTextField.swift */; };
+		8BD2A637282D184D0018E238 /* CommonScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2A636282D184D0018E238 /* CommonScreenView.swift */; };
+		8BD2A639282D25900018E238 /* SignUpScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2A638282D25900018E238 /* SignUpScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8BD2A622282D0A510018E238 /* LoginFormSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginFormSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD2A625282D0A510018E238 /* LoginFormSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormSwiftUIApp.swift; sourceTree = "<group>"; };
-		8BD2A627282D0A510018E238 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BD2A627282D0A510018E238 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
 		8BD2A629282D0A520018E238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BD2A62C282D0A520018E238 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BD2A634282D0DC70018E238 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		8BD2A636282D184D0018E238 /* CommonScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonScreenView.swift; sourceTree = "<group>"; };
+		8BD2A638282D25900018E238 /* SignUpScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		8BD2A624282D0A510018E238 /* LoginFormSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				8BD2A633282D0DB80018E238 /* Extension */,
 				8BD2A625282D0A510018E238 /* LoginFormSwiftUIApp.swift */,
-				8BD2A627282D0A510018E238 /* ContentView.swift */,
+				8BD2A627282D0A510018E238 /* LoginScreenView.swift */,
+				8BD2A638282D25900018E238 /* SignUpScreenView.swift */,
+				8BD2A636282D184D0018E238 /* CommonScreenView.swift */,
 				8BD2A629282D0A520018E238 /* Assets.xcassets */,
 				8BD2A62B282D0A520018E238 /* Preview Content */,
 			);
@@ -65,6 +74,14 @@
 				8BD2A62C282D0A520018E238 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BD2A633282D0DB80018E238 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8BD2A634282D0DC70018E238 /* CustomTextField.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BD2A628282D0A510018E238 /* ContentView.swift in Sources */,
+				8BD2A628282D0A510018E238 /* LoginScreenView.swift in Sources */,
+				8BD2A637282D184D0018E238 /* CommonScreenView.swift in Sources */,
 				8BD2A626282D0A510018E238 /* LoginFormSwiftUIApp.swift in Sources */,
+				8BD2A639282D25900018E238 /* SignUpScreenView.swift in Sources */,
+				8BD2A635282D0DC70018E238 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
